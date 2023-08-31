@@ -1,4 +1,4 @@
-# Proposta do Trabalho
+# Proposta do Trabalho :books:
 
 Neste trabalho, o objetivo é criar um sistema que possibilite a funcionalidade de autocompletar e oferecer sugestões de palavras aos usuários. Para atingir essa finalidade, adotaremos aestrutura da árvore binária como base. A seguir, é apresentado os passos necessários para a implementação.
 
@@ -22,7 +22,9 @@ A abordagem consistirá em três etapas diferentes:
   2. ```Codificação de Huffman```: Será explorado o uso do código de Huffman para otimizar a árvore binária padrão. Calcularemos códigos para cada palavra e reorganizaremos a estrutura da árvore com base nesses códigos. Avaliaremos se essa abordagem oferece vantagens em relação à anterior.
   3. ```Árvore AVL```: Será implementado uma árvore AVL e repetiremos o processo de análise. Compararemos o tempo médio de processamento entre a construção da estrutura e a geração de saída em comparação com as abordagens anteriores.
 
-# A lógica 
+# O algoritmo :computer:
+
+# A lógica :bulb:
 
 ```Árvore Binária```
 
@@ -51,12 +53,9 @@ A abordagem consistirá em três etapas diferentes:
 <em>Imagem 3: Exemplo de uma Árvore AVL. </em>
 </p>
 
+# Conclusão :dart:
 
-# O algoritmo 
-
-# Conclusão
-
-# Compilação e Execução
+# Compilação e Execução 	:open_file_folder:
 
 O algoritmo disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
