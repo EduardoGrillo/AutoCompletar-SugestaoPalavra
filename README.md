@@ -47,7 +47,7 @@ A abordagem consistirá em três etapas diferentes:
 ```Árvore AVL```
 
 <p align="center">
-<img src="image/treeAVL" width="300"/>
+<img src="image/treeAVL.png" width="300"/>
 </p>
 <p align="center">
 <em>Imagem 3: Exemplo de uma Árvore AVL. </em>
