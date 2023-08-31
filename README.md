@@ -28,6 +28,11 @@ A abordagem consistirá em três etapas diferentes:
 
 ```Árvore Binária```
 
+Árvores binárias são estruturas de dados fundamentais no contexto de Ciência da Computação. Em particular, Árvores Binárias de Pesquisa são aplicadas na solução de diversos problemas que demandam eficiência em operações básicas, como busca, inserção e remoção. Informalmente, uma Árvore Binária de Pesquisa (BST)1 é uma estrutura de dados de árvore binária baseada em nós, onde a subárvore à esquerda de cada nó possui valores numéricos inferiores ao nó e a subárvore à direita de cada nó possui valores numéricos superiores ao nó. Formalmente, uma BST é definida recursivamente da seguinte forma:
+
+* A é uma árvore nula;
+* A é uma tripla (Esq,raiz,Dir), onde Esq e Dir são árvores binárias de pesquisa e Esq contém apenas valores menores do que o armazenado na raiz, enquanto Dir contém apenas valores maiores do que o armazenado na raiz.
+
 <p align="center">
 <img src="image/arvoreBinaria.png" width="300"/>
 </p>
@@ -37,6 +42,8 @@ A abordagem consistirá em três etapas diferentes:
 
 ```Codificação de Huffman```
 
+Uma árvore binária completa, chamada de árvore de Huffman é construída recursivamente a partir da junção dos dois símbolos de menor probabilidade, que são então somados em símbolos auxiliares e estes símbolos auxiliares recolocados no conjunto de símbolos. O processo termina quando todos os símbolos forem unidos em símbolos auxiliares, formando uma árvore binária. A árvore é então percorrida, atribuindo-se valores binários de 1 ou 0 para cada aresta, e os códigos são gerados a partir desse percurso.
+
 <p align="center">
 <img src="image/Huffman.png" width="300"/>
 </p>
@@ -45,6 +52,10 @@ A abordagem consistirá em três etapas diferentes:
 </p>
 
 ```Árvore AVL```
+
+Árvore AVL é uma árvore binária de busca balanceada, ou seja, uma árvore balanceada (árvore completa) são as árvores que minimizam o número de comparações efetuadas no pior caso para uma busca com chaves de probabilidades de ocorrências idênticas. Contudo, para garantir essa propriedade em aplicações dinâmicas, é preciso reconstruir a árvore para seu estado ideal a cada operação sobre seus nós (inclusão ou exclusão), para ser alcançado um custo de algoritmo com o tempo de pesquisa tendendo a O(logn).
+
+As operações de busca, inserção e remoção de elementos possuem complexidade O(logn), no qual n é o número de elementos da árvore, que são aplicados a árvore de busca binária.
 
 <p align="center">
 <img src="image/treeAVL.png" width="300"/>
