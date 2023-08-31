@@ -2,15 +2,15 @@
 
 Neste trabalho, o objetivo é criar um sistema que possibilite a funcionalidade de autocompletar e oferecer sugestões de palavras aos usuários. Para atingir essa finalidade, adotaremos aestrutura da árvore binária como base. A seguir, é apresentado os passos necessários para a implementação.
 
-* **PASSO 1: COLETA DE DADOS**
+* **PASSO 1: COLETA DE DADOS** :1st_place_medal:
 
 Ao iniciar, será solicitado ao usuário um arquivo denominado input.data, contendo uma lista de palavras. Cada palavra nesse arquivo será considerada como termo de pesquisa para o sistema.
 
-* **PASSO 2: MODELO DE DADOS - ÁRVORES BINÁRIAS**
+* **PASSO 2: MODELO DE DADOS - ÁRVORES BINÁRIAS** :2nd_place_medal:
 
 Será utilizado um conjunto de árvores binárias para construir o sistema. Essas árvores serão criadas a partir de textos previamente fornecidos (disponíveis em textos.zip). O objetivo é estabelecer uma relação entre as palavras dos textos e as palavras de pesquisa.
 
-* **PASSO 3: SUGESTÕES DE PALAVRAS RELEVANTES**
+* **PASSO 3: SUGESTÕES DE PALAVRAS RELEVANTES** :3rd_place_medal:
 
 Os resultados da análise serão apresentados em um arquivo chamado output.data. Esse arquivo conterá as relações entre as palavras pesquisadas e cada arquivo de texto. Além disso, a relevância de cada palavra será calculada com base em sua frequência nos textos. Para tal, utilize o trabalho recentemente realizado, o contador de palavras.
 
