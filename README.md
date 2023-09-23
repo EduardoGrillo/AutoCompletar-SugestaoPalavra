@@ -146,7 +146,7 @@ A função printHuffmanTreePostOrder() é responsável por imprimir a Árvore de
 
 
 <p align="center">
-<img src="image/huffman.png" width="500"/>
+<img src="image/huff.png" width="500"/>
 </p>
 <p align="center">
 <em>Imagem 3: Codificação de Huffman com as palavras do OUTPUT. </em>
