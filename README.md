@@ -23,16 +23,6 @@ A abordagem consistirá em três etapas diferentes:
   3. ```Árvore AVL```: Será implementado uma árvore AVL e repetiremos o processo de análise. Compararemos o tempo médio de processamento entre a construção da estrutura e a geração de saída em comparação com as abordagens anteriores.
 
 
-
-
-
-
-
-
-
-
-
-
 # Solução do Problema :computer:
 
 ```INPUT```
@@ -40,8 +30,6 @@ A abordagem consistirá em três etapas diferentes:
 O Input fornecido pelo professor, apresenta um conjunto de arquivos de texto como entrada. Ele processa esses arquivos para calcular a frequência das palavras e, em seguida, encontra as palavras de maior frequência em cada arquivo. Abaixo está uma explicação detalhada sobre o input do código:
 
 * ```Número de Arquivos de Entrada (numFiles):``` O código é projetado para processar um conjunto de arquivos de texto. O número total de arquivos a serem processados é definido pela variável ```numFiles```. Neste caso, numFiles está definido como 6, o que significa que o código processará 6 arquivos de texto de entrada. Você pode ajustar esse valor de acordo com o número de arquivos que deseja processar.
-
--> IMPRIMIR AQUI <- 
 
 * ```Arquivos de Stopwords:``` O código assume a existência de um arquivo chamado "stopword.txt" no diretório "src/dataset/". Esse arquivo contém uma lista de stopwords, que são palavras comuns que geralmente são ignoradas durante o processamento de texto. As stopwords são lidas a partir deste arquivo e armazenadas em um conjunto (unordered_set) chamado stopwords. Isso permite que o código exclua essas palavras comuns da contagem de frequência.
 
@@ -88,10 +76,14 @@ A recursão continua até encontrar um local adequado para inserir a palavra, co
 
 ``` Função de Impressão em Pós-Ordem``` 
 
-
 Nessa função, está responsável de imprimir a árvore em pós-ordem, realizada para que os filhos esquerdos e direitos de um nó sejam impressos antes do próprio nó. A função recebe um ponteiro para a raiz da Árvore Binária ```(root)```. Para imprimir em pós-ordem, é realizada de forma recursiva. A função começa imprimindo o filho esquerdo chamando ```printBinaryTreePostOrder(root->left)```, depois imprime o filho direito chamando ```printBinaryTreePostOrder(root->right)```. Por fim, a função imprime a palavra e a frequência do nó atual ```(root->word e root->frequency)```. Esse processo continua até que todos os nós da árvore tenham sido impressos em pós-ordem.
 
--> VAI IMPRIMIR AQUI <-
+<p align="center">
+<img src="image/binaria.png" width="500"/>
+</p>
+<p align="center">
+<em>Imagem 1: Árvore Binária com as palavras do OUTPUT. </em>
+</p>
 
 # Árvore AVL :deciduous_tree:
 
@@ -123,7 +115,12 @@ A função insertIntoAVL() recebe um ponteiro para a raiz da Árvore AVL (root) 
 
 A função printAVLTreePostOrder() é responsável por imprimir a Árvore AVL em pós-ordem, seguindo a mesma lógica da Árvore Binária, ela recebe um ponteiro para a raiz da Árvore AVL (root) como entrada. A impressão é realizada de forma recursiva, imprimindo os filhos esquerdos, os filhos direitos e, por fim, o nó atual (palavra e frequência).
 
--> VAI IMPRIMIR AQUI <-
+<p align="center">
+<img src="image/avl.png" width="500"/>
+</p>
+<p align="center">
+<em>Imagem 2: Árvore AVL com as palavras do OUTPUT. </em>
+</p>
 
 # Huffman :deciduous_tree:
 
@@ -148,7 +145,12 @@ A função retorna a raiz da Árvore de Huffman construída.
 A função printHuffmanTreePostOrder() é responsável por imprimir a Árvore de Huffman em pós-ordem, seguindo a mesma lógica das árvores anteriores, ela recebe um ponteiro para a raiz da Árvore de Huffman (root) como entrada. A impressão é realizada de forma recursiva, imprimindo os filhos esquerdos, os filhos direitos e, por fim, o nó atual (palavra e frequência) com seu código Huffman associado.
 
 
--> VAI IMPRIMIR AQUI <-
+<p align="center">
+<img src="image/huffman.png" width="500"/>
+</p>
+<p align="center">
+<em>Imagem 3: Codificação de Huffman com as palavras do OUTPUT. </em>
+</p>
 
 # Velocidade de Execução - Comparação entre as Árvores :zap:
 
@@ -175,7 +177,25 @@ Em resumo, a escolha entre essas árvores depende das necessidades específicas 
 
 Em resumo, o output do código fornece uma visão detalhada das palavras de maior frequência em cada arquivo de texto, além de mostrar a estrutura das três árvores usadas e seus tempos de execução. Isso ajuda na análise de desempenho e na compreensão de como cada estrutura de dados se comporta com relação aos dados de entrada.
 
--> VAI IMPRIMIR AQUI <-
+<p align="center">
+<img src="image/output0.png" width="500"/>
+</p>
+<p align="center">
+<em>Imagem 4: Exemplo do começo de OUTPUT do arquivo 01. </em>
+</p>
+
+A impressão em pós-ordem segue a ordem de visita dos nós, começando pelos nós filhos da esquerda, seguidos pelos nós filhos da direita e, finalmente, pelo próprio nó. Isso resulta em uma impressão das palavras da árvore em ordem decrescente de frequência.
+
+Cada nó é impresso no formato (palavra: frequência) e é separado por espaços para facilitar a leitura.
+
+Dessa forma, o processo de criação e impressão da árvore no output permite visualizar claramente as palavras de maior frequência e sua organização hierárquica com base na relevância. Essa saída é útil para análise e compreensão dos resultados da análise de texto.
+
+<p align="center">
+<img src="image/output1.png" width="500"/>
+</p>
+<p align="center">
+<em>Imagem 5: Construção da árvore ao decorrer do arquivo no OUTPUT. </em>
+</p>
 
 
 # A lógica :bulb:
@@ -206,6 +226,13 @@ O Heapsort é um algoritmo de ordenação por seleção que se baseia na estrutu
 
 Em resumo, o Heapsort é um algoritmo de ordenação eficiente que se baseia na estrutura de um heap binário. Ele é capaz de ordenar conjuntos de dados de forma estável com uma complexidade de tempo de O(n log n) e não requer espaço adicional. No entanto, em alguns cenários, outros algoritmos de ordenação podem ser mais rápidos.
 
+<p align="center">
+<img src="image/heap.png" width="500"/>
+</p>
+<p align="center">
+<em>Imagem 6: Exemplo de HeapSort. </em>
+</p>
+
 ```Árvore Binária```
 
 Uma árvore binária é uma estrutura de dados hierárquica e não linear usada em ciência da computação e matemática. Ela é composta por um conjunto de elementos chamados "nós", onde cada nó pode ter até dois "filhos": um filho esquerdo e um filho direito. Os nós de uma árvore binária são conectados por meio de "arestas".
@@ -230,7 +257,7 @@ As árvores binárias são amplamente utilizadas em algoritmos de busca, estrutu
 <img src="image/arvoreBinaria.png" width="300"/>
 </p>
 <p align="center">
-<em>Imagem 1: Exemplo de Árvore Binária. </em>
+<em>Imagem 7: Exemplo de Árvore Binária. </em>
 </p>
 
 ```Codificação de Huffman```
@@ -255,7 +282,7 @@ A Codificação de Huffman é um exemplo clássico de algoritmo de compressão q
 <img src="image/Huffman.png" width="300"/>
 </p>
 <p align="center">
-<em>Imagem 2: Exemplo do Algoritmo de Huffman. </em>
+<em>Imagem 8: Exemplo do Algoritmo de Huffman. </em>
 </p>
 
 ```Árvore AVL```
@@ -276,12 +303,30 @@ Em resumo, a Árvore AVL é uma árvore binária de busca balanceada que garante
 <img src="image/treeAVL.png" width="300"/>
 </p>
 <p align="center">
-<em>Imagem 3: Exemplo de uma Árvore AVL. </em>
+<em>Imagem 9: Exemplo de uma Árvore AVL. </em>
 </p>
 
 # Conclusão :dart:
 
+O código apresentado oferece uma solução abrangente para a análise de palavras de maior frequência em vários arquivos de texto, enquanto demonstra o desempenho de três estruturas de dados fundamentais: Árvore Binária, Árvore AVL e Árvore de Huffman.
+
+Este projeto não apenas facilita a análise de texto, mas também fornece uma compreensão clara das diferentes estruturas de dados e de suas características de desempenho. A escolha entre Árvore Binária, Árvore AVL e Árvore de Huffman dependerá das necessidades específicas do projeto, do tamanho do conjunto de dados e dos requisitos de eficiência.
+
+A implementação destas estruturas de dados e a análise de desempenho podem servir como base para a construção de aplicativos mais complexos que envolvam processamento de texto e análise de dados. Compreender as vantagens e desvantagens de cada estrutura é fundamental para tomar decisões informadas em projetos futuros.
+
+
 # Compilação e Execução 	:open_file_folder:
+
+```1. Verificação do Arquivo de Leitura```
+
+O programa foi projetado para processar um conjunto de arquivos de ```input(X).txt``` contidos na pasta ```dataset```. Então, para o correto funcionamento do programa:
+
+* Verificar de incluir corretamente os arquivos no formato ```input(X).txt``` dentro da pasta ```dataset```.
+* Verificar se os arquivos estão em formato ```.txt```.
+
+```2. StopWords```
+
+* Verificar se o arquivo ```stopword.txt``` esteja localizado na pasta ```dataset```.
 
 O algoritmo disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
