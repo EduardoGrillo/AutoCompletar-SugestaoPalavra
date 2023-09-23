@@ -35,7 +35,44 @@ A abordagem consistirá em três etapas diferentes:
 
 # Solução do Problema :computer:
 
-# Árvore Binária
+```INPUT```
+
+O Input fornecido pelo professor, apresenta um conjunto de arquivos de texto como entrada. Ele processa esses arquivos para calcular a frequência das palavras e, em seguida, encontra as palavras de maior frequência em cada arquivo. Abaixo está uma explicação detalhada sobre o input do código:
+
+* ```Número de Arquivos de Entrada (numFiles):``` O código é projetado para processar um conjunto de arquivos de texto. O número total de arquivos a serem processados é definido pela variável ```numFiles```. Neste caso, numFiles está definido como 6, o que significa que o código processará 6 arquivos de texto de entrada. Você pode ajustar esse valor de acordo com o número de arquivos que deseja processar.
+
+-> IMPRIMIR AQUI <- 
+
+* ```Arquivos de Stopwords:``` O código assume a existência de um arquivo chamado "stopword.txt" no diretório "src/dataset/". Esse arquivo contém uma lista de stopwords, que são palavras comuns que geralmente são ignoradas durante o processamento de texto. As stopwords são lidas a partir deste arquivo e armazenadas em um conjunto (unordered_set) chamado stopwords. Isso permite que o código exclua essas palavras comuns da contagem de frequência.
+
+* ```Processamento de Texto:``` O código itera sobre cada arquivo de entrada ("input1.txt" a "input6.txt") e executa as seguintes etapas de processamento de texto:
+
+	1. Lê o conteúdo do arquivo de texto.
+	2. Divide o texto em palavras individuais.
+	3. Converte todas as palavras em letras minúsculas para garantir a uniformidade.
+	4. Remove qualquer pontuação no início ou no final das palavras.
+	5. Verifica se a palavra não é uma palavra vazia e contém letras alfabéticas.
+	6. Verifica se a palavra não está na lista de stopwords. Se não for uma stopword, ela é incluída na contagem de frequência.
+
+* ```Cálculo de Frequência:``` O código mantém uma estrutura de dados chamada frequencyMap, que é um mapa não ordenado (unordered_map) que associa palavras às suas frequências. À medida que o código processa o texto, ele atualiza esse mapa com a contagem de frequência de cada palavra relevante.
+
+* ```Encontrar Palavras de Maior Frequência:``` Após processar o arquivo de texto, o código utiliza a função findTopK() para encontrar as 10 palavras de maior frequência no arquivo. Isso é feito usando um min-heap (fila de prioridade) para manter as palavras de maior frequência. A função findTopK() insere as palavras no min-heap e, se o tamanho do heap exceder 10, ela remove a palavra com a menor frequência. Portanto, ao final do processamento de um arquivo, o min-heap contém as top 10 palavras de maior frequência desse arquivo.
+
+```OUTPUT esperado:``` É esperado imprimir, ao final do código, o texto que está sendo percorrido as árvores, as palavras de maior frequência, a próxima palavra da árvore, a frequência da maior palavra, e o total de palavras dentro do arquivo. Além disso, também tem a função de medir o tempo de execução para as operações de cada estrutura de árvore (Árvore Binária, Árvore AVL e Árvore de Huffman) e imprime esses tempos, permitindo uma comparação de desempenho entre elas.
+
+# HeapSort
+
+O ```HeapSort``` processa vários arquivos de texto, calcula a frequência das palavras nesses textos e, em seguida, encontra as palavras de maior frequência. Ele utiliza três estruturas de árvore diferentes (Árvore Binária, Árvore AVL e Árvore de Huffman) para armazenar e processar essas palavras. A seguir, será mostrado o funcionamento do Heapsort utilizado no código código.
+
+* Primeiro, o código lê os arquivos de texto e processa as palavras, excluindo as stopwords (palavras comuns que não são relevantes para a análise).
+
+* Para cada arquivo de texto, o código encontra as 10 palavras de maior frequência usando a função findTopK(). Essa função utiliza um min-heap (fila de prioridade) para manter as palavras de maior frequência.
+
+* A função findTopK() insere as palavras no min-heap e, se o tamanho do heap exceder k (10 neste caso), ela remove a palavra com a menor frequência. Isso garante que o heap contenha sempre as top k palavras.
+
+* Após processar os arquivos de texto, o código imprime as top k palavras encontradas para cada arquivo, bem como a frequência delas.
+
+# Árvore Binária :deciduous_tree:
 
 A  ```Árvore Binária``` é uma das estruturas utilizadas para organizar e representar palavras com base em suas frequências no trabalho proposto. A seguir, será apresentada as principais estruturas utilizadas.
 
@@ -56,7 +93,7 @@ Nessa função, está responsável de imprimir a árvore em pós-ordem, realizad
 
 -> VAI IMPRIMIR AQUI <-
 
-# Árvore AVL
+# Árvore AVL :deciduous_tree:
 
 ``` Função para Obter a Altura de um Nó``` 
 
@@ -88,7 +125,7 @@ A função printAVLTreePostOrder() é responsável por imprimir a Árvore AVL em
 
 -> VAI IMPRIMIR AQUI <-
 
-# Huffman
+# Huffman :deciduous_tree:
 
 A ``` Árvore de Huffman```  é a última estrutura utilizada no trabalho, possuindo sua importância para autocompletar e oferecer sugestões de palavras. A seguir, será apresentada as principais estruturas utilizadas.
 
@@ -113,23 +150,81 @@ A função printHuffmanTreePostOrder() é responsável por imprimir a Árvore de
 
 -> VAI IMPRIMIR AQUI <-
 
-# Comparação entre as árvores
+# Velocidade de Execução - Comparação entre as Árvores :zap:
 
-Árvore Binária: A construção da Árvore Binária é rápida, pois não requer operações de balanceamento complexas.
-Árvore AVL: A construção da Árvore AVL é um pouco mais lenta devido às operações de balanceamento, mas ainda é eficiente.
-Árvore de Huffman: A construção da Árvore de Huffman envolve a criação de uma árvore binária completa, que é relativamente mais lenta, mas ocorre apenas uma vez.
+A velocidade de inserção em uma ```Árvore Binária``` é geralmente rápida, pois envolve comparações simples para determinar a posição de inserção. No entanto, a velocidade de busca pode variar significativamente com base no balanceamento da árvore. Em um cenário desbalanceado, a busca pode ser muito lenta, com complexidade O(n), onde n é o número de palavras. Isso resulta em um custo computacional elevado, especialmente em cenários de busca intensiva.
+
+A ```Árvore AVL``` mantém o balanceamento automaticamente durante a inserção, resultando em uma velocidade de inserção eficiente, com complexidade média de O(log n), onde n é o número de palavras. A velocidade de busca em uma Árvore AVL também é eficiente, com complexidade média de O(log n). Embora as operações de balanceamento tenham um custo computacional, elas garantem que a árvore permaneça balanceada, resultando em um melhor desempenho em cenários de busca.
+
+A construção da ```Árvore de Huffman``` é relativamente mais lenta, pois envolve a criação de uma árvore binária completa. No entanto, essa construção ocorre apenas uma vez. Após a construção, a busca por palavras é rápida, pois palavras comuns são representadas por códigos curtos. O custo computacional da construção da Árvore de Huffman é elevado devido ao algoritmo de criação da árvore, mas a compressão resultante economiza espaço de armazenamento.
+
+| Árvore          | Complexidade no Pior Caso | Complexidade Média (Inserção/Busca) |
+|-----------------|---------------------------|-------------------------------------|
+| Árvore Binária  | O(n)                      | -                                   |
+| Árvore AVL      | O(log n)                  | O(log n)                            |
+| Árvore de Huffman | Elevado (Construção)    | O(log n) (Busca após construção)    |
 
 
+*  Para operações de busca, a Árvore AVL é a mais eficiente entre as três, com complexidade O(log n) tanto no pior caso quanto na média.
+*  A Árvore de Huffman é eficaz para busca após a construção, mas a construção em si é computacionalmente custosa, tornando-a mais adequada para cenários onde a árvore é construída uma única vez e usada para várias operações de busca.
+*  A Árvore Binária não é otimizada para busca e, portanto, não é recomendada para aplicações que requerem eficiência nesse aspecto.
+
+Em resumo, a escolha entre essas árvores depende das necessidades específicas da aplicação. Se a busca é a operação crítica, a Árvore AVL é a melhor escolha. Se a prioridade é a compressão de dados, a Árvore de Huffman é apropriada, desde que a construção seja um processo infrequente.
+
+```OUTPUT```
+
+Em resumo, o output do código fornece uma visão detalhada das palavras de maior frequência em cada arquivo de texto, além de mostrar a estrutura das três árvores usadas e seus tempos de execução. Isso ajuda na análise de desempenho e na compreensão de como cada estrutura de dados se comporta com relação aos dados de entrada.
+
+-> VAI IMPRIMIR AQUI <-
 
 
 # A lógica :bulb:
 
+```HeapSort```
+
+O Heapsort é um algoritmo de ordenação por seleção que se baseia na estrutura de um heap binário. Ele consiste em três etapas principais: construir um heap a partir do conjunto de elementos, extrair elementos do heap (que estão sempre na ordem correta) e reorganizar o heap após cada extração.
+
+* ```Construção do Heap (Heapify):``` A primeira etapa do Heapsort envolve a construção de um heap a partir do conjunto de elementos a serem ordenados. Isso é feito da seguinte maneira:
+
+  1. Começamos com um array desordenado.
+  2. Transformamos esse array em um heap binário, garantindo que a propriedade do heap seja mantida. Isso envolve comparar cada elemento com seus filhos e, se necessário, trocar elementos para manter a propriedade do heap.
+  3. Após a construção do heap, o maior elemento estará na raiz do heap.
+
+* ```Extração e Reorganização:``` Na segunda etapa, o maior elemento do heap (que está na raiz) é removido e colocado na posição apropriada no array ordenado. A propriedade do heap é então restaurada para o restante dos elementos no heap, garantindo que o próximo maior elemento esteja na raiz. Esse processo é repetido até que todos os elementos tenham sido extraídos e colocados no array ordenado.
+
+* ```Funcionamento do Heap:``` A estrutura do heap é uma árvore binária completa em que cada nó tem um valor maior ou igual ao de seus filhos (no caso de um heap máximo) ou menor ou igual ao de seus filhos (no caso de um heap mínimo). Essa propriedade garante que o maior (ou menor) elemento esteja sempre na raiz do heap.
+
+* ```Vantagens do Heapsort:```
+  1. O Heapsort é eficiente em termos de tempo de execução, com uma complexidade de tempo de O(n log n), o que o torna mais rápido do que alguns outros algoritmos de ordenação, como o Bubble Sort e o Insertion Sort, em média.
+  2. Ele não requer espaço adicional, pois a ordenação é realizada no próprio array de entrada.
+  3. O Heapsort é um algoritmo de ordenação estável, o que significa que a ordem relativa dos elementos com chaves iguais é preservada.
+
+* ```Desvantagens do Heapsort:```
+
+  1. Apesar de sua eficiência em termos de tempo, o Heapsort não é tão rápido quanto algoritmos de ordenação como o Quick Sort ou o Merge Sort em casos médios e em algumas situações.
+  2. O algoritmo é in-place, o que significa que não é adequado para ordenar grandes conjuntos de dados quando o uso de memória é uma preocupação.
+
+Em resumo, o Heapsort é um algoritmo de ordenação eficiente que se baseia na estrutura de um heap binário. Ele é capaz de ordenar conjuntos de dados de forma estável com uma complexidade de tempo de O(n log n) e não requer espaço adicional. No entanto, em alguns cenários, outros algoritmos de ordenação podem ser mais rápidos.
+
 ```Árvore Binária```
 
-Árvores binárias são estruturas de dados fundamentais no contexto de Ciência da Computação. Em particular, Árvores Binárias de Pesquisa são aplicadas na solução de diversos problemas que demandam eficiência em operações básicas, como busca, inserção e remoção. Informalmente, uma Árvore Binária de Pesquisa (BST)1 é uma estrutura de dados de árvore binária baseada em nós, onde a subárvore à esquerda de cada nó possui valores numéricos inferiores ao nó e a subárvore à direita de cada nó possui valores numéricos superiores ao nó. Formalmente, uma BST é definida recursivamente da seguinte forma:
+Uma árvore binária é uma estrutura de dados hierárquica e não linear usada em ciência da computação e matemática. Ela é composta por um conjunto de elementos chamados "nós", onde cada nó pode ter até dois "filhos": um filho esquerdo e um filho direito. Os nós de uma árvore binária são conectados por meio de "arestas".
 
-* A é uma árvore nula;
-* A é uma tripla (Esq,raiz,Dir), onde Esq e Dir são árvores binárias de pesquisa e Esq contém apenas valores menores do que o armazenado na raiz, enquanto Dir contém apenas valores maiores do que o armazenado na raiz.
+* ```Definição de Nó:``` Cada nó em uma árvore binária contém um valor ou dado associado, que pode ser qualquer tipo de dado, como números inteiros, caracteres ou até mesmo estruturas de dados mais complexas.
+
+* ```Relação entre Nós:``` Cada nó em uma árvore binária tem, no máximo, dois filhos: um filho esquerdo e um filho direito. Os filhos de um nó são conectados ao nó pai por meio de arestas direcionadas.
+
+* ```Raiz da Árvore:``` O nó no topo da árvore é chamado de "raiz". Ele é o único nó na árvore que não tem um pai. É a partir da raiz que toda a estrutura da árvore se ramifica.
+
+* ```Folhas:``` Os nós na parte inferior da árvore que não têm filhos são chamados de "folhas" ou "nós folha".
+
+* ```Altura da Árvore:``` A "altura" da árvore é a distância entre a raiz e o nó mais distante da árvore. É a medida da profundidade máxima da árvore.
+
+* ```Travessias:``` Existem várias maneiras de percorrer ou "travessar" uma árvore binária para acessar seus nós, como travessia em ordem (in-order), travessia pré-ordem (pre-order) e travessia pós-ordem (post-order).
+
+A principal característica das árvores binárias é que elas permitem uma estrutura hierárquica de dados que pode ser usada para armazenar informações de forma organizada e eficiente. Uma aplicação comum das árvores binárias é a implementação de Árvores Binárias de Pesquisa (BST), onde os nós são organizados de tal forma que os valores menores estão à esquerda e os valores maiores estão à direita.
+
+As árvores binárias são amplamente utilizadas em algoritmos de busca, estruturas de dados, processamento de árvores de análise sintática em linguagens de programação, e em muitos outros campos da ciência da computação e matemática devido à sua versatilidade e eficiência.
 
 <p align="center">
 <img src="image/arvoreBinaria.png" width="300"/>
@@ -140,7 +235,21 @@ A função printHuffmanTreePostOrder() é responsável por imprimir a Árvore de
 
 ```Codificação de Huffman```
 
-Uma árvore binária completa, chamada de árvore de Huffman é construída recursivamente a partir da junção dos dois símbolos de menor probabilidade, que são então somados em símbolos auxiliares e estes símbolos auxiliares recolocados no conjunto de símbolos. O processo termina quando todos os símbolos forem unidos em símbolos auxiliares, formando uma árvore binária. A árvore é então percorrida, atribuindo-se valores binários de 1 ou 0 para cada aresta, e os códigos são gerados a partir desse percurso.
+A Codificação de Huffman é um método de compactação de dados que utiliza uma árvore binária especial chamada "Árvore de Huffman". Esta técnica é amplamente usada para compactar dados, como texto, áudio e vídeo, com o objetivo de economizar espaço de armazenamento ou largura de banda durante a transmissão. Aqui está uma explicação sobre a Árvore de Huffman e seu funcionamento:
+
+* ```Definição da Árvore de Huffman:``` A Árvore de Huffman é uma árvore binária completa, onde cada nó interno (não folha) tem dois filhos, um à esquerda e outro à direita. Cada folha da árvore representa um caractere ou um símbolo e possui um valor associado a ele, que é geralmente a frequência de ocorrência desse caractere no conjunto de dados original.
+
+* ```Construção da Árvore de Huffman:``` A Árvore de Huffman é construída a partir de um conjunto de caracteres e suas frequências. O algoritmo começa com cada caractere como uma folha em uma floresta de árvores individuais. Em seguida, ele mescla repetidamente as duas árvores com as menores frequências, criando uma nova árvore que tem como filhos as duas árvores mescladas. Esse processo continua até que todas as árvores estejam mescladas em uma única árvore, que se torna a Árvore de Huffman.
+
+* ```Codificação de Huffman:``` Uma vez construída a Árvore de Huffman, a codificação de cada caractere é obtida seguindo o caminho da raiz até a folha correspondente. Cada passo para a esquerda na árvore é representado por um "0", e cada passo para a direita é representado por um "1". Portanto, a codificação de Huffman é uma representação binária onde caracteres mais frequentes têm códigos mais curtos e caracteres menos frequentes têm códigos mais longos.
+
+ * ```Decodificação de Huffman:``` A decodificação de Huffman é o processo inverso da codificação. Começando da raiz da Árvore de Huffman, os bits de entrada são lidos um por um. À medida que cada bit é lido, o algoritmo segue para o filho correspondente (esquerda ou direita) na árvore. Quando uma folha é alcançada, o caractere associado a essa folha é emitido como parte da saída. Esse processo continua até que todos os bits de entrada sejam processados.
+
+* ```Eficiência da Compactação:``` A Codificação de Huffman é eficiente na compactação de dados porque atribui códigos mais curtos a caracteres mais frequentes, economizando espaço em relação a representações fixas, como ASCII. Isso a torna uma técnica valiosa em compressão de dados, como em arquivos ZIP, GIF e em transmissões de áudio e vídeo.
+
+* ```Adaptação Dinâmica:``` Uma das vantagens da Codificação de Huffman é sua capacidade de se adaptar a mudanças na frequência de caracteres. Isso significa que, se a frequência dos caracteres em um conjunto de dados mudar, a Árvore de Huffman pode ser reconstruída para otimizar a compactação com base nas novas frequências.
+
+A Codificação de Huffman é um exemplo clássico de algoritmo de compressão que ilustra a eficiência das árvores binárias na representação de dados de forma compacta e eficaz.
 
 <p align="center">
 <img src="image/Huffman.png" width="300"/>
@@ -151,9 +260,17 @@ Uma árvore binária completa, chamada de árvore de Huffman é construída recu
 
 ```Árvore AVL```
 
-Árvore AVL é uma árvore binária de busca balanceada, ou seja, uma árvore balanceada (árvore completa) são as árvores que minimizam o número de comparações efetuadas no pior caso para uma busca com chaves de probabilidades de ocorrências idênticas. Contudo, para garantir essa propriedade em aplicações dinâmicas, é preciso reconstruir a árvore para seu estado ideal a cada operação sobre seus nós (inclusão ou exclusão), para ser alcançado um custo de algoritmo com o tempo de pesquisa tendendo a O(logn).
+A Árvore AVL é uma árvore binária de busca especial em que a diferença entre as alturas das subárvores esquerda e direita de qualquer nó (fator de balanceamento) é mantida pequena ou limitada a um valor específico (geralmente 1). Isso garante que a árvore esteja balanceada e que as operações de busca, inserção e remoção tenham complexidade média O(log n), onde "n" é o número de nós na árvore.
 
-As operações de busca, inserção e remoção de elementos possuem complexidade O(logn), no qual n é o número de elementos da árvore, que são aplicados a árvore de busca binária.
+* ```Inserção na Árvore AVL:``` Quando um novo nó é inserido em uma Árvore AVL, a árvore verifica seu fator de balanceamento. Se o fator de balanceamento de um nó se tornar maior que 1 ou menor que -1, isso indica um desequilíbrio. A árvore aplica uma série de rotações (simples ou duplas) para restaurar o equilíbrio. Essas rotações envolvem reorganizar os nós, mantendo a propriedade de busca da árvore.
+
+* ```Remoção na Árvore AVL:``` Quando um nó é removido de uma Árvore AVL, a árvore verifica o fator de balanceamento de seus nós pai ao longo do caminho para a raiz. Se algum nó ao longo desse caminho tiver um fator de balanceamento maior que 1 ou menor que -1, a árvore aplica rotações para restaurar o equilíbrio.
+
+* ```Funcionamento da Rotação:``` As rotações são operações que reorganizam a árvore, alterando as ligações entre os nós.
+
+* ```Desvantagens da Árvore AVL:``` A principal desvantagem da Árvore AVL é que as operações de inserção e remoção são mais complexas devido à necessidade de manter o equilíbrio. Isso pode resultar em uma pequena sobrecarga computacional em comparação com estruturas de dados não balanceadas, como uma Árvore Binária de Busca simples.
+
+Em resumo, a Árvore AVL é uma árvore binária de busca balanceada que garante um bom desempenho nas operações de busca, inserção e remoção. Ela atinge esse equilíbrio por meio de rotações que mantêm o fator de balanceamento controlado, mantendo a árvore eficiente em termos de tempo de execução.
 
 <p align="center">
 <img src="image/treeAVL.png" width="300"/>
