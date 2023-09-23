@@ -178,7 +178,7 @@ Em resumo, a escolha entre essas árvores depende das necessidades específicas 
 Em resumo, o output do código fornece uma visão detalhada das palavras de maior frequência em cada arquivo de texto, além de mostrar a estrutura das três árvores usadas e seus tempos de execução. Isso ajuda na análise de desempenho e na compreensão de como cada estrutura de dados se comporta com relação aos dados de entrada.
 
 <p align="center">
-<img src="image/output0.png" width="500"/>
+<img src="image/output0.png" width="700"/>
 </p>
 <p align="center">
 <em>Imagem 4: Exemplo do começo de OUTPUT do arquivo 01. </em>
@@ -191,7 +191,7 @@ Cada nó é impresso no formato (palavra: frequência) e é separado por espaço
 Dessa forma, o processo de criação e impressão da árvore no output permite visualizar claramente as palavras de maior frequência e sua organização hierárquica com base na relevância. Essa saída é útil para análise e compreensão dos resultados da análise de texto.
 
 <p align="center">
-<img src="image/output1.png" width="500"/>
+<img src="image/output1.png" width="700"/>
 </p>
 <p align="center">
 <em>Imagem 5: Construção da árvore ao decorrer do arquivo no OUTPUT. </em>
