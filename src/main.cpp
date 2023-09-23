@@ -4,15 +4,15 @@
 #include "treeHuffman.hpp"
 
 int main() {
-    // Redirecionar a saída para um arquivo
+    // Redireciona a saída para um arquivo
     ofstream outputFile("src/dataset/output.txt");
     if (!outputFile) {
         cerr << "Erro ao abrir o arquivo de saída." << endl;
         return 1;
     }
     
-    streambuf* coutBuf = cout.rdbuf(); // Salvar o buffer padrão de cout
-    cout.rdbuf(outputFile.rdbuf()); // Redirecionar cout para o arquivo de saída
+    streambuf* coutBuf = cout.rdbuf(); // Salva o buffer padrão de cout
+    cout.rdbuf(outputFile.rdbuf()); // Redireciona cout para o arquivo de saída
 
     int numFiles = 6; // Número de arquivos de entrada
     unordered_set<string> stopwords = readStopwords("src/dataset/stopword.txt");
@@ -38,7 +38,7 @@ int main() {
 
         unordered_map<string, int> frequencyMap = processText(inputFile, stopwords);
 
-        // Encontre as 10 principais palavras para este arquivo
+        // Encontra as 10 principais palavras para este arquivo
         vector<WordFrequency> topWords = findTopK(frequencyMap, 10);
 
         int totalWords = 0;
@@ -56,12 +56,12 @@ int main() {
             cout << "FREQUENCIA: " << topWords[j].frequency << endl;
             cout << "TOTAL DE PALAVRAS: " << totalWords << endl;
 
-            // Declare as variáveis de raiz das árvores aqui
+            // Declara as variáveis de raiz das árvores aqui
             TreeNode *binaryTreeRoot = nullptr;
             AVLNode *avlRoot = nullptr;
             HuffmanNode *huffmanTreeRoot = nullptr;
 
-            // Medir o tempo de execução da árvore binária
+            // Mede o tempo de execução da árvore binária
             auto startBinary = high_resolution_clock::now(); // Inicia a contagem de tempo
             for (size_t k = 0; k <= j; ++k) {
                 insertIntoBinaryTree(binaryTreeRoot, topWords[k]);
@@ -69,7 +69,7 @@ int main() {
             auto stopBinary = high_resolution_clock::now(); // Encerra a contagem de tempo
             auto durationBinary = duration_cast<duration<double>>(stopBinary - startBinary); // Calcula a duração em segundos
 
-            // Medir o tempo de execução da árvore AVL
+            // Mede o tempo de execução da árvore AVL
             auto startAVL = high_resolution_clock::now(); // Inicia a contagem de tempo
             for (size_t k = 0; k <= j; ++k) {
                 avlRoot = insertIntoAVL(avlRoot, topWords[k].word, topWords[k].frequency);
@@ -77,7 +77,7 @@ int main() {
             auto stopAVL = high_resolution_clock::now(); // Encerra a contagem de tempo
             auto durationAVL = duration_cast<duration<double>>(stopAVL - startAVL); // Calcula a duração em segundos
 
-            // Medir o tempo de execução da árvore de Huffman
+            // Mede o tempo de execução da árvore de Huffman
             auto startHuffman = high_resolution_clock::now(); // Inicia a contagem de tempo
             vector<WordFrequency> huffmanWords(topWords.begin(), topWords.begin() + j + 1);
             huffmanTreeRoot = buildHuffmanTree(huffmanWords);
@@ -114,12 +114,12 @@ int main() {
             cout << "----------------------------------------------------------------------------------------------------------------------------" << endl;
         }
 
-        inputFile.close(); // Fechar o arquivo após processá-lo
+        inputFile.close(); // Fecha o arquivo após processá-lo
     }
 
-    // Restaurar a saída padrão
+    // Restaura a saída padrão
     cout.rdbuf(coutBuf);
-    outputFile.close(); // Fechar o arquivo de saída
+    outputFile.close(); // Fecha o arquivo de saída
 
     return 0;
 }
