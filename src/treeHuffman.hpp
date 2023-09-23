@@ -4,13 +4,13 @@
 HuffmanNode *buildHuffmanTree(vector<WordFrequency> &words) {
     priority_queue<HuffmanNode *, vector<HuffmanNode *>, CompareHuffmanNode> minHeap;
 
-    // Crie um nó para cada palavra e frequência e insira-o na fila de prioridade
+    // Cria um nó para cada palavra e frequência e insira-o na fila de prioridade
     for (const auto &word : words) {
         HuffmanNode *node = new HuffmanNode(word.word, word.frequency);
         minHeap.push(node);
     }
 
-    // Construa a árvore de Huffman combinando os nós com menores frequências
+    // Constroi a árvore de Huffman combinando os nós com menores frequências
     while (minHeap.size() > 1) {
         HuffmanNode *left = minHeap.top();
         minHeap.pop();
