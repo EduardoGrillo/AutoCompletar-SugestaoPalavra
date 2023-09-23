@@ -2,7 +2,7 @@
 
 AVLNode *avlRoot = nullptr;
 
-// implementação de funções para calcular a altura de um nó e calcular o fator de equilíbrio
+// Funções para calcular a altura de um nó e calcular o fator de equilíbrio
 int getHeight(AVLNode *node) {
     if (!node) return 0;
     return node->height;
@@ -66,13 +66,13 @@ AVLNode *insertIntoAVL(AVLNode *root, string word, int frequency) {
         root->frequency += frequency;
     }
 
-    // Atualize a altura do nó
+    // Atualiza a altura do nó
     root->height = 1 + max(getHeight(root->left), getHeight(root->right));
 
-    // Calcule o fator de equilíbrio do nó
+    // Calcula o fator de equilíbrio do nó
     int balanceFactor = getBalanceFactor(root);
 
-    // Verifique e realize as rotações necessárias para manter o equilíbrio
+    // Verifica e realize as rotações necessárias para manter o equilíbrio
     if (balanceFactor > 1) {
         if (word < root->left->word) {
             return rotateRight(root);
