@@ -18,7 +18,7 @@
 using namespace std;
 using namespace chrono;
 
-// Definir a estrutura para representar palavras e frequências.
+// Define a estrutura para representar palavras e frequências.
 struct WordFrequency {
     string word;
     int frequency;
