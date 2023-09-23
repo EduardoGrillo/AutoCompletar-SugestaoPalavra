@@ -1,0 +1,1236 @@
+
+
+----------------------------------------------------------------------------------------------------------------------------
+INFORMAÇÕES
+
+TEXTO UTILIZADO: arquivo 1
+
+PALAVRAS DE MAIOR FREQUENCIA: teoria
+PROXIMA PALAVRA DA ÁRVORE: sujeito
+FREQUENCIA: 176
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (teoria:176) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((teoria: 10110000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001885 ms
+Tempo de execução da árvore AVL: 0.001397 ms
+Tempo de execução da árvore Huffman: 0.003352 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sujeito
+PROXIMA PALAVRA DA ÁRVORE: mundo
+FREQUENCIA: 145
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (sujeito:145)  (teoria:176) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((sujeito: 10010001) (teoria: 10110000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.001466 ms
+Tempo de execução da árvore Huffman: 0.002863 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: mundo
+PROXIMA PALAVRA DA ÁRVORE: condição
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (mundo:134)  (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (mundo:134)  (teoria:176)  (sujeito:145) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((teoria: 10110000) (mundo: 10000110) (sujeito: 10010001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.002374 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.003423 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: condição
+PROXIMA PALAVRA DA ÁRVORE: modo
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (condição:134)  (mundo:134)  (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (condição:134)  (mundo:134)  (teoria:176)  (sujeito:145) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((mundo: 10000110) (condição: 10000110) (sujeito: 10010001) (teoria: 10110000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001955 ms
+Tempo de execução da árvore Huffman: 0.003911 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: modo
+PROXIMA PALAVRA DA ÁRVORE: priori
+FREQUENCIA: 129
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (modo:129)  (condição:134)  (mundo:134)  (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (condição:134)  (mundo:134)  (modo:129)  (teoria:176)  (sujeito:145) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((condição: 10000110) (sujeito: 10010001) (teoria: 10110000) (modo: 10000001) (mundo: 10000110) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.001397 ms
+Tempo de execução da árvore Huffman: 0.004680 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: priori
+PROXIMA PALAVRA DA ÁRVORE: sistema
+FREQUENCIA: 125
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (priori:125)  (modo:129)  (condição:134)  (mundo:134)  (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (condição:134)  (modo:129)  (priori:125)  (teoria:176)  (sujeito:145)  (mundo:134) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((sujeito: 10010001) (teoria: 10110000) (priori: 01111101) (modo: 10000001) (mundo: 10000110) (condição: 10000110) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.001396 ms
+Tempo de execução da árvore Huffman: 0.011873 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sistema
+PROXIMA PALAVRA DA ÁRVORE: pensamento
+FREQUENCIA: 115
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sistema:115)  (priori:125)  (modo:129)  (condição:134)  (mundo:134)  (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (condição:134)  (modo:129)  (sistema:115)  (priori:125)  (teoria:176)  (sujeito:145)  (mundo:134) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((teoria: 10110000) (sistema: 01110011) (priori: 01111101) (modo: 10000001) (mundo: 10000110) (condição: 10000110) (sujeito: 10010001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001885 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.005796 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: pensamento
+PROXIMA PALAVRA DA ÁRVORE: segundo
+FREQUENCIA: 115
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (pensamento:115)  (sistema:115)  (priori:125)  (modo:129)  (condição:134)  (mundo:134)  (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (condição:134)  (modo:129)  (pensamento:115)  (sistema:115)  (priori:125)  (teoria:176)  (sujeito:145)  (mundo:134) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((sistema: 01110011) (pensamento: 01110011) (priori: 01111101) (modo: 10000001) (condição: 10000110) (mundo: 10000110) (sujeito: 10010001) (teoria: 10110000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.002863 ms
+Tempo de execução da árvore Huffman: 0.008171 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: segundo
+PROXIMA PALAVRA DA ÁRVORE: sobre
+FREQUENCIA: 114
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (segundo:114)  (pensamento:115)  (sistema:115)  (priori:125)  (modo:129)  (condição:134)  (mundo:134)  (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (condição:134)  (modo:129)  (pensamento:115)  (segundo:114)  (priori:125)  (teoria:176)  (sujeito:145)  (sistema:115)  (mundo:134) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((pensamento: 01110011) (priori: 01111101) (modo: 10000001) (condição: 10000110) (mundo: 10000110) (sujeito: 10010001) (teoria: 10110000) (segundo: 01110010) (sistema: 01110011) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001816 ms
+Tempo de execução da árvore AVL: 0.002864 ms
+Tempo de execução da árvore Huffman: 0.007193 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sobre
+FREQUENCIA: 114
+TOTAL DE PALAVRAS: 31580
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sobre:114)  (segundo:114)  (pensamento:115)  (sistema:115)  (priori:125)  (modo:129)  (condição:134)  (mundo:134)  (sujeito:145)  (teoria:176) )
+ÁRVORE AVL(PosOrdem):
+( (condição:134)  (modo:129)  (pensamento:115)  (segundo:114)  (priori:125)  (sobre:114)  (teoria:176)  (sujeito:145)  (sistema:115)  (mundo:134) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((priori: 01111101) (modo: 10000001) (condição: 10000110) (mundo: 10000110) (sujeito: 10010001) (teoria: 10110000) (segundo: 01110010) (sobre: 01110010) (sistema: 01110011) (pensamento: 01110011) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.005657 ms
+Tempo de execução da árvore AVL: 0.003352 ms
+Tempo de execução da árvore Huffman: 0.008171 ms
+----------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------
+INFORMAÇÕES
+
+TEXTO UTILIZADO: arquivo 2
+
+PALAVRAS DE MAIOR FREQUENCIA: teoria
+PROXIMA PALAVRA DA ÁRVORE: sujeito
+FREQUENCIA: 192
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (teoria:192) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((teoria: 11000000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001466 ms
+Tempo de execução da árvore AVL: 0.000978 ms
+Tempo de execução da árvore Huffman: 0.002863 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sujeito
+PROXIMA PALAVRA DA ÁRVORE: mundo
+FREQUENCIA: 149
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (sujeito:149)  (teoria:192) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((sujeito: 10010101) (teoria: 11000000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001467 ms
+Tempo de execução da árvore Huffman: 0.002933 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: mundo
+PROXIMA PALAVRA DA ÁRVORE: priori
+FREQUENCIA: 144
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (mundo:144)  (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (mundo:144)  (teoria:192)  (sujeito:149) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((teoria: 11000000) (mundo: 10010000) (sujeito: 10010101) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001955 ms
+Tempo de execução da árvore Huffman: 0.002793 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: priori
+PROXIMA PALAVRA DA ÁRVORE: condição
+FREQUENCIA: 144
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (priori:144)  (mundo:144)  (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (priori:144)  (mundo:144)  (teoria:192)  (sujeito:149) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((mundo: 10010000) (priori: 10010000) (sujeito: 10010101) (teoria: 11000000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001466 ms
+Tempo de execução da árvore AVL: 0.001886 ms
+Tempo de execução da árvore Huffman: 0.003701 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: condição
+PROXIMA PALAVRA DA ÁRVORE: modo
+FREQUENCIA: 133
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (condição:133)  (priori:144)  (mundo:144)  (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (condição:133)  (priori:144)  (mundo:144)  (teoria:192)  (sujeito:149) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((priori: 10010000) (sujeito: 10010101) (teoria: 11000000) (condição: 10000101) (mundo: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.001956 ms
+Tempo de execução da árvore Huffman: 0.004749 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: modo
+PROXIMA PALAVRA DA ÁRVORE: sistema
+FREQUENCIA: 129
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (modo:129)  (condição:133)  (priori:144)  (mundo:144)  (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (modo:129)  (condição:133)  (priori:144)  (teoria:192)  (sujeito:149)  (mundo:144) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((sujeito: 10010101) (teoria: 11000000) (modo: 10000001) (condição: 10000101) (mundo: 10010000) (priori: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001466 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.005377 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sistema
+PROXIMA PALAVRA DA ÁRVORE: pensamento
+FREQUENCIA: 119
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sistema:119)  (modo:129)  (condição:133)  (priori:144)  (mundo:144)  (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (modo:129)  (condição:133)  (sistema:119)  (priori:144)  (teoria:192)  (sujeito:149)  (mundo:144) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((teoria: 11000000) (sistema: 01110111) (modo: 10000001) (condição: 10000101) (mundo: 10010000) (priori: 10010000) (sujeito: 10010101) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.002444 ms
+Tempo de execução da árvore Huffman: 0.005727 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: pensamento
+PROXIMA PALAVRA DA ÁRVORE: segundo
+FREQUENCIA: 115
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (pensamento:115)  (sistema:119)  (modo:129)  (condição:133)  (priori:144)  (mundo:144)  (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (modo:129)  (condição:133)  (pensamento:115)  (sistema:119)  (priori:144)  (teoria:192)  (sujeito:149)  (mundo:144) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((pensamento: 01110011) (sistema: 01110111) (modo: 10000001) (condição: 10000101) (priori: 10010000) (mundo: 10010000) (sujeito: 10010101) (teoria: 11000000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.002444 ms
+Tempo de execução da árvore Huffman: 0.006285 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: segundo
+PROXIMA PALAVRA DA ÁRVORE: sobre
+FREQUENCIA: 114
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (segundo:114)  (pensamento:115)  (sistema:119)  (modo:129)  (condição:133)  (priori:144)  (mundo:144)  (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (modo:129)  (condição:133)  (pensamento:115)  (segundo:114)  (priori:144)  (teoria:192)  (sujeito:149)  (sistema:119)  (mundo:144) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((sistema: 01110111) (modo: 10000001) (condição: 10000101) (priori: 10010000) (mundo: 10010000) (sujeito: 10010101) (teoria: 11000000) (segundo: 01110010) (pensamento: 01110011) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001885 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.007263 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sobre
+FREQUENCIA: 114
+TOTAL DE PALAVRAS: 31571
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sobre:114)  (segundo:114)  (pensamento:115)  (sistema:119)  (modo:129)  (condição:133)  (priori:144)  (mundo:144)  (sujeito:149)  (teoria:192) )
+ÁRVORE AVL(PosOrdem):
+( (modo:129)  (condição:133)  (pensamento:115)  (segundo:114)  (priori:144)  (sobre:114)  (teoria:192)  (sujeito:149)  (sistema:119)  (mundo:144) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((modo: 10000001) (condição: 10000101) (priori: 10010000) (mundo: 10010000) (sujeito: 10010101) (teoria: 11000000) (segundo: 01110010) (sobre: 01110010) (pensamento: 01110011) (sistema: 01110111) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001956 ms
+Tempo de execução da árvore AVL: 0.002863 ms
+Tempo de execução da árvore Huffman: 0.007193 ms
+----------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------
+INFORMAÇÕES
+
+TEXTO UTILIZADO: arquivo 3
+
+PALAVRAS DE MAIOR FREQUENCIA: processo
+PROXIMA PALAVRA DA ÁRVORE: sentido
+FREQUENCIA: 200
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((processo: 11001000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.001466 ms
+Tempo de execução da árvore Huffman: 0.002934 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sentido
+PROXIMA PALAVRA DA ÁRVORE: assim
+FREQUENCIA: 200
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((processo: 11001000) (sentido: 11001000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001397 ms
+Tempo de execução da árvore Huffman: 0.002933 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: assim
+PROXIMA PALAVRA DA ÁRVORE: importância
+FREQUENCIA: 199
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((processo: 11001000) (assim: 11000111) (sentido: 11001000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001466 ms
+Tempo de execução da árvore AVL: 0.001397 ms
+Tempo de execução da árvore Huffman: 0.003771 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: importância
+PROXIMA PALAVRA DA ÁRVORE: quadros
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (importância:134)  (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (importância:134)  (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((importância: 10000110) (assim: 11000111) (sentido: 11001000) (processo: 11001000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001815 ms
+Tempo de execução da árvore Huffman: 0.003702 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: quadros
+PROXIMA PALAVRA DA ÁRVORE: podemos
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (quadros:134)  (importância:134)  (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (importância:134)  (assim:199)  (quadros:134)  (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((assim: 11000111) (processo: 11001000) (sentido: 11001000) (importância: 10000110) (quadros: 10000110) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001955 ms
+Tempo de execução da árvore AVL: 0.001956 ms
+Tempo de execução da árvore Huffman: 0.004261 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: podemos
+PROXIMA PALAVRA DA ÁRVORE: informações
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (podemos:134)  (quadros:134)  (importância:134)  (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (assim:199)  (podemos:134)  (importância:134)  (quadros:134)  (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((processo: 11001000) (sentido: 11001000) (importância: 10000110) (podemos: 10000110) (quadros: 10000110) (assim: 11000111) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001466 ms
+Tempo de execução da árvore AVL: 0.002445 ms
+Tempo de execução da árvore Huffman: 0.005238 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: informações
+PROXIMA PALAVRA DA ÁRVORE: sistema
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (informações:134)  (podemos:134)  (quadros:134)  (importância:134)  (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (assim:199)  (informações:134)  (podemos:134)  (importância:134)  (quadros:134)  (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((sentido: 11001000) (informações: 10000110) (quadros: 10000110) (importância: 10000110) (podemos: 10000110) (assim: 11000111) (processo: 11001000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.006285 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sistema
+PROXIMA PALAVRA DA ÁRVORE: melhoria
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sistema:134)  (informações:134)  (podemos:134)  (quadros:134)  (importância:134)  (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (assim:199)  (informações:134)  (podemos:134)  (importância:134)  (quadros:134)  (sistema:134)  (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((informações: 10000110) (quadros: 10000110) (importância: 10000110) (podemos: 10000110) (sistema: 10000110) (assim: 11000111) (processo: 11001000) (sentido: 11001000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.002444 ms
+Tempo de execução da árvore Huffman: 0.006356 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: melhoria
+PROXIMA PALAVRA DA ÁRVORE: necessidade
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (melhoria:134)  (sistema:134)  (informações:134)  (podemos:134)  (quadros:134)  (importância:134)  (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (assim:199)  (informações:134)  (podemos:134)  (melhoria:134)  (importância:134)  (quadros:134)  (sistema:134)  (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((importância: 10000110) (podemos: 10000110) (informações: 10000110) (melhoria: 10000110) (assim: 11000111) (sentido: 11001000) (processo: 11001000) (quadros: 10000110) (sistema: 10000110) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001955 ms
+Tempo de execução da árvore AVL: 0.002863 ms
+Tempo de execução da árvore Huffman: 0.007264 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: necessidade
+FREQUENCIA: 134
+TOTAL DE PALAVRAS: 24924
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (necessidade:134)  (melhoria:134)  (sistema:134)  (informações:134)  (podemos:134)  (quadros:134)  (importância:134)  (assim:199)  (sentido:200)  (processo:200) )
+ÁRVORE AVL(PosOrdem):
+( (assim:199)  (informações:134)  (importância:134)  (necessidade:134)  (podemos:134)  (melhoria:134)  (quadros:134)  (sistema:134)  (sentido:200)  (processo:200) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((informações: 10000110) (melhoria: 10000110) (sistema: 10000110) (assim: 11000111) (processo: 11001000) (sentido: 11001000) (quadros: 10000110) (necessidade: 10000110) (importância: 10000110) (podemos: 10000110) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.002863 ms
+Tempo de execução da árvore Huffman: 0.007682 ms
+----------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------
+INFORMAÇÕES
+
+TEXTO UTILIZADO: arquivo 4
+
+PALAVRAS DE MAIOR FREQUENCIA: político
+PROXIMA PALAVRA DA ÁRVORE: políticas
+FREQUENCIA: 400
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (político:400) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((político: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001467 ms
+Tempo de execução da árvore Huffman: 0.002374 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: políticas
+PROXIMA PALAVRA DA ÁRVORE: saúde
+FREQUENCIA: 267
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (políticas:267)  (político:400) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((políticas: 00001011) (político: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001397 ms
+Tempo de execução da árvore Huffman: 0.002863 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: saúde
+PROXIMA PALAVRA DA ÁRVORE: melhoria
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (saúde:201)  (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (políticas:267)  (saúde:201)  (político:400) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((político: 10010000) (saúde: 11001001) (políticas: 00001011) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001397 ms
+Tempo de execução da árvore Huffman: 0.002864 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: melhoria
+PROXIMA PALAVRA DA ÁRVORE: assim
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (melhoria:201)  (saúde:201)  (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (melhoria:201)  (políticas:267)  (saúde:201)  (político:400) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((saúde: 11001001) (melhoria: 11001001) (políticas: 00001011) (político: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.001886 ms
+Tempo de execução da árvore Huffman: 0.003771 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: assim
+PROXIMA PALAVRA DA ÁRVORE: atual
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (assim:201)  (melhoria:201)  (saúde:201)  (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (políticas:267)  (melhoria:201)  (saúde:201)  (político:400) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((assim: 11001001) (políticas: 00001011) (político: 10010000) (saúde: 11001001) (melhoria: 11001001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001396 ms
+Tempo de execução da árvore AVL: 0.001886 ms
+Tempo de execução da árvore Huffman: 0.004399 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: atual
+PROXIMA PALAVRA DA ÁRVORE: sentido
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (atual:201)  (assim:201)  (melhoria:201)  (saúde:201)  (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (atual:201)  (assim:201)  (políticas:267)  (saúde:201)  (político:400)  (melhoria:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((políticas: 00001011) (político: 10010000) (melhoria: 11001001) (assim: 11001001) (saúde: 11001001) (atual: 11001001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.002374 ms
+Tempo de execução da árvore Huffman: 0.005238 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sentido
+PROXIMA PALAVRA DA ÁRVORE: metas
+FREQUENCIA: 200
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sentido:200)  (atual:201)  (assim:201)  (melhoria:201)  (saúde:201)  (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (atual:201)  (assim:201)  (políticas:267)  (sentido:200)  (saúde:201)  (político:400)  (melhoria:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((político: 10010000) (sentido: 11001000) (saúde: 11001001) (atual: 11001001) (melhoria: 11001001) (assim: 11001001) (políticas: 00001011) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.002304 ms
+Tempo de execução da árvore Huffman: 0.005308 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: metas
+PROXIMA PALAVRA DA ÁRVORE: eleitores
+FREQUENCIA: 199
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (metas:199)  (sentido:200)  (atual:201)  (assim:201)  (melhoria:201)  (saúde:201)  (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (atual:201)  (assim:201)  (metas:199)  (políticas:267)  (sentido:200)  (saúde:201)  (político:400)  (melhoria:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((político: 10010000) (assim: 11001001) (melhoria: 11001001) (saúde: 11001001) (atual: 11001001) (políticas: 00001011) (metas: 11000111) (sentido: 11001000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001466 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.006215 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: eleitores
+PROXIMA PALAVRA DA ÁRVORE: política
+FREQUENCIA: 199
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (eleitores:199)  (metas:199)  (sentido:200)  (atual:201)  (assim:201)  (melhoria:201)  (saúde:201)  (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (eleitores:199)  (atual:201)  (metas:199)  (políticas:267)  (sentido:200)  (saúde:201)  (político:400)  (melhoria:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((sentido: 11001000) (saúde: 11001001) (atual: 11001001) (assim: 11001001) (melhoria: 11001001) (políticas: 00001011) (metas: 11000111) (eleitores: 11000111) (político: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001816 ms
+Tempo de execução da árvore AVL: 0.002863 ms
+Tempo de execução da árvore Huffman: 0.007193 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: política
+FREQUENCIA: 198
+TOTAL DE PALAVRAS: 25471
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (política:198)  (eleitores:199)  (metas:199)  (sentido:200)  (atual:201)  (assim:201)  (melhoria:201)  (saúde:201)  (políticas:267)  (político:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (eleitores:199)  (atual:201)  (metas:199)  (políticas:267)  (política:198)  (sentido:200)  (saúde:201)  (político:400)  (melhoria:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((saúde: 11001001) (atual: 11001001) (assim: 11001001) (melhoria: 11001001) (políticas: 00001011) (política: 11000110) (metas: 11000111) (eleitores: 11000111) (sentido: 11001000) (político: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.002794 ms
+Tempo de execução da árvore Huffman: 0.007542 ms
+----------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------
+INFORMAÇÕES
+
+TEXTO UTILIZADO: arquivo 5
+
+PALAVRAS DE MAIOR FREQUENCIA: utilização
+PROXIMA PALAVRA DA ÁRVORE: segurança
+FREQUENCIA: 399
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (utilização:399) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((utilização: 10001111) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.000978 ms
+Tempo de execução da árvore Huffman: 0.002444 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: segurança
+PROXIMA PALAVRA DA ÁRVORE: implantação
+FREQUENCIA: 268
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (segurança:268)  (utilização:399) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((segurança: 00001100) (utilização: 10001111) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.001396 ms
+Tempo de execução da árvore Huffman: 0.002375 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: implantação
+PROXIMA PALAVRA DA ÁRVORE: informações
+FREQUENCIA: 266
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (implantação:266)  (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (implantação:266)  (utilização:399)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((utilização: 10001111) (implantação: 00001010) (segurança: 00001100) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001956 ms
+Tempo de execução da árvore AVL: 0.001397 ms
+Tempo de execução da árvore Huffman: 0.002863 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: informações
+PROXIMA PALAVRA DA ÁRVORE: dados
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (informações:201)  (implantação:266)  (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (informações:201)  (implantação:266)  (utilização:399)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((informações: 11001001) (implantação: 00001010) (segurança: 00001100) (utilização: 10001111) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001396 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.003911 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: dados
+PROXIMA PALAVRA DA ÁRVORE: novas
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (dados:201)  (informações:201)  (implantação:266)  (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (dados:201)  (informações:201)  (implantação:266)  (utilização:399)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((implantação: 00001010) (segurança: 00001100) (utilização: 10001111) (informações: 11001001) (dados: 11001001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001396 ms
+Tempo de execução da árvore AVL: 0.001886 ms
+Tempo de execução da árvore Huffman: 0.004190 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: novas
+PROXIMA PALAVRA DA ÁRVORE: ti
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (novas:201)  (dados:201)  (informações:201)  (implantação:266)  (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (dados:201)  (implantação:266)  (novas:201)  (utilização:399)  (segurança:268)  (informações:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((segurança: 00001100) (utilização: 10001111) (informações: 11001001) (novas: 11001001) (dados: 11001001) (implantação: 00001010) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.005239 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: ti
+PROXIMA PALAVRA DA ÁRVORE: desenvolvimento
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (ti:201)  (novas:201)  (dados:201)  (informações:201)  (implantação:266)  (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (dados:201)  (implantação:266)  (novas:201)  (ti:201)  (utilização:399)  (segurança:268)  (informações:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((utilização: 10001111) (ti: 11001001) (dados: 11001001) (informações: 11001001) (novas: 11001001) (implantação: 00001010) (segurança: 00001100) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001955 ms
+Tempo de execução da árvore AVL: 0.002375 ms
+Tempo de execução da árvore Huffman: 0.005238 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: desenvolvimento
+PROXIMA PALAVRA DA ÁRVORE: sistema
+FREQUENCIA: 200
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (desenvolvimento:200)  (ti:201)  (novas:201)  (dados:201)  (informações:201)  (implantação:266)  (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (dados:201)  (implantação:266)  (desenvolvimento:200)  (novas:201)  (ti:201)  (utilização:399)  (segurança:268)  (informações:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((desenvolvimento: 11001000) (novas: 11001001) (ti: 11001001) (informações: 11001001) (dados: 11001001) (implantação: 00001010) (segurança: 00001100) (utilização: 10001111) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001956 ms
+Tempo de execução da árvore AVL: 0.002863 ms
+Tempo de execução da árvore Huffman: 0.006146 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: sistema
+PROXIMA PALAVRA DA ÁRVORE: aumento
+FREQUENCIA: 200
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (sistema:200)  (desenvolvimento:200)  (ti:201)  (novas:201)  (dados:201)  (informações:201)  (implantação:266)  (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (dados:201)  (implantação:266)  (desenvolvimento:200)  (novas:201)  (sistema:200)  (utilização:399)  (ti:201)  (segurança:268)  (informações:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((informações: 11001001) (dados: 11001001) (novas: 11001001) (ti: 11001001) (implantação: 00001010) (segurança: 00001100) (utilização: 10001111) (desenvolvimento: 11001000) (sistema: 11001000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001955 ms
+Tempo de execução da árvore AVL: 0.002933 ms
+Tempo de execução da árvore Huffman: 0.007124 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: aumento
+FREQUENCIA: 200
+TOTAL DE PALAVRAS: 26137
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (aumento:200)  (sistema:200)  (desenvolvimento:200)  (ti:201)  (novas:201)  (dados:201)  (informações:201)  (implantação:266)  (segurança:268)  (utilização:399) )
+ÁRVORE AVL(PosOrdem):
+( (aumento:200)  (dados:201)  (implantação:266)  (desenvolvimento:200)  (novas:201)  (sistema:200)  (utilização:399)  (ti:201)  (segurança:268)  (informações:201) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((ti: 11001001) (informações: 11001001) (dados: 11001001) (implantação: 00001010) (segurança: 00001100) (utilização: 10001111) (desenvolvimento: 11001000) (sistema: 11001000) (aumento: 11001000) (novas: 11001001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001955 ms
+Tempo de execução da árvore AVL: 0.003352 ms
+Tempo de execução da árvore Huffman: 0.007683 ms
+----------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------
+INFORMAÇÕES
+
+TEXTO UTILIZADO: arquivo 6
+
+PALAVRAS DE MAIOR FREQUENCIA: utilização
+PROXIMA PALAVRA DA ÁRVORE: segurança
+FREQUENCIA: 400
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (utilização:400) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((utilização: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001886 ms
+Tempo de execução da árvore Huffman: 0.002445 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: segurança
+PROXIMA PALAVRA DA ÁRVORE: implantação
+FREQUENCIA: 268
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (segurança:268)  (utilização:400) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((segurança: 00001100) (utilização: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001956 ms
+Tempo de execução da árvore Huffman: 0.003282 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: implantação
+PROXIMA PALAVRA DA ÁRVORE: assim
+FREQUENCIA: 267
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (implantação:267)  (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (implantação:267)  (utilização:400)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((utilização: 10010000) (implantação: 00001011) (segurança: 00001100) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001467 ms
+Tempo de execução da árvore AVL: 0.001397 ms
+Tempo de execução da árvore Huffman: 0.002933 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: assim
+PROXIMA PALAVRA DA ÁRVORE: ti
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (assim:201)  (implantação:267)  (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (implantação:267)  (utilização:400)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((assim: 11001001) (implantação: 00001011) (segurança: 00001100) (utilização: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001397 ms
+Tempo de execução da árvore AVL: 0.001885 ms
+Tempo de execução da árvore Huffman: 0.003772 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: ti
+PROXIMA PALAVRA DA ÁRVORE: melhor
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (ti:201)  (assim:201)  (implantação:267)  (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (implantação:267)  (ti:201)  (utilização:400)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((implantação: 00001011) (segurança: 00001100) (utilização: 10010000) (assim: 11001001) (ti: 11001001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.001816 ms
+Tempo de execução da árvore Huffman: 0.004261 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: melhor
+PROXIMA PALAVRA DA ÁRVORE: aumento
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (melhor:201)  (ti:201)  (assim:201)  (implantação:267)  (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (melhor:201)  (implantação:267)  (ti:201)  (utilização:400)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((segurança: 00001100) (utilização: 10010000) (assim: 11001001) (melhor: 11001001) (ti: 11001001) (implantação: 00001011) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.002305 ms
+Tempo de execução da árvore Huffman: 0.004819 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: aumento
+PROXIMA PALAVRA DA ÁRVORE: dados
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (aumento:201)  (melhor:201)  (ti:201)  (assim:201)  (implantação:267)  (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (aumento:201)  (assim:201)  (melhor:201)  (implantação:267)  (ti:201)  (utilização:400)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((utilização: 10010000) (aumento: 11001001) (ti: 11001001) (assim: 11001001) (melhor: 11001001) (implantação: 00001011) (segurança: 00001100) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001886 ms
+Tempo de execução da árvore AVL: 0.002304 ms
+Tempo de execução da árvore Huffman: 0.005587 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: dados
+PROXIMA PALAVRA DA ÁRVORE: hardware
+FREQUENCIA: 201
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (dados:201)  (aumento:201)  (melhor:201)  (ti:201)  (assim:201)  (implantação:267)  (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (dados:201)  (aumento:201)  (melhor:201)  (implantação:267)  (ti:201)  (utilização:400)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((aumento: 11001001) (ti: 11001001) (assim: 11001001) (melhor: 11001001) (dados: 11001001) (implantação: 00001011) (segurança: 00001100) (utilização: 10010000) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001956 ms
+Tempo de execução da árvore AVL: 0.002863 ms
+Tempo de execução da árvore Huffman: 0.006076 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: hardware
+PROXIMA PALAVRA DA ÁRVORE: informações
+FREQUENCIA: 200
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (hardware:200)  (dados:201)  (aumento:201)  (melhor:201)  (ti:201)  (assim:201)  (implantação:267)  (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (aumento:201)  (hardware:200)  (melhor:201)  (implantação:267)  (dados:201)  (ti:201)  (utilização:400)  (segurança:268) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((assim: 11001001) (ti: 11001001) (aumento: 11001001) (dados: 11001001) (implantação: 00001011) (segurança: 00001100) (utilização: 10010000) (hardware: 11001000) (melhor: 11001001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001956 ms
+Tempo de execução da árvore AVL: 0.002864 ms
+Tempo de execução da árvore Huffman: 0.007054 ms
+----------------------------------------------------------------------------------------------------------------------------
+PALAVRAS DE MAIOR FREQUENCIA: informações
+FREQUENCIA: 200
+TOTAL DE PALAVRAS: 26134
+
+ÁRVORES
+
+ÁRVORE BINÁRIA(PosOrdem):
+( (informações:200)  (hardware:200)  (dados:201)  (aumento:201)  (melhor:201)  (ti:201)  (assim:201)  (implantação:267)  (segurança:268)  (utilização:400) )
+ÁRVORE AVL(PosOrdem):
+( (assim:201)  (aumento:201)  (hardware:200)  (dados:201)  (informações:200)  (melhor:201)  (ti:201)  (utilização:400)  (segurança:268)  (implantação:267) )
+ÁRVORE DE HUFFMAN(PosOrdem):
+((dados: 11001001) (assim: 11001001) (ti: 11001001) (implantação: 00001011) (segurança: 00001100) (utilização: 10010000) (hardware: 11001000) (informações: 11001000) (melhor: 11001001) (aumento: 11001001) )
+
+TEMPO DE EXECUÇÃO DAS ÁRVORES
+
+Tempo de execução da árvore Binária: 0.001885 ms
+Tempo de execução da árvore AVL: 0.003422 ms
+Tempo de execução da árvore Huffman: 0.007543 ms
+----------------------------------------------------------------------------------------------------------------------------
