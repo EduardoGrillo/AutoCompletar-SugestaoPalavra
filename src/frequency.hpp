@@ -1,7 +1,5 @@
 #include "frequency.cpp"
 
-
-
 // Função para ler stopwords de um arquivo.
 unordered_set<string> readStopwords(const string &filename) {
     unordered_set<string> stopwords;
