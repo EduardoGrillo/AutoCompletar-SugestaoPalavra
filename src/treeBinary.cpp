@@ -3,7 +3,7 @@
 
 #include "frequency.cpp"
 
-// Definir a estrutura de nó para a árvore binária
+// Define a estrutura de nó para a árvore binária
 struct TreeNode {
     string word;
     int frequency;
